@@ -1,7 +1,8 @@
 import React from "react";
 import { render } from "react-dom";
+import Template from "components/Template";
 
 render(
-  <div>Hello World React Version!</div>,
+  <Template/>,
   document.getElementById("app")
 );
