@@ -11,7 +11,7 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 });
 
 module.exports = {
-  entry: `${APP_DIR}/index.js`,
+  entry: `${APP_DIR}/index.jsx`,
   output: {
     path: BUILD_DIR,
     publicPath: '/',
