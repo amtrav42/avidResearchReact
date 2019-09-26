@@ -4,7 +4,7 @@ class Header extends Component {
   render(){
     return (
       <header>
-        Welcome to Avid Research
+        <h1>Welcome to Avid Research</h1>
       </header>
     );
   }
