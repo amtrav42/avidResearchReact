@@ -1,14 +1,15 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class NavLink extends Component {
   render(){
     const { href, label } = this.props;
     return (
-      <a href={href}>
+      <Link to={href}>
         <div>
           {label}
         </div>
-      </a>
+      </Link>
     );
   }
 }
