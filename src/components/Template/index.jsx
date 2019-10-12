@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Footer from "../Footer";
 import Header from "../Header";
+import Contact from "../../pages/Contact";
 import Main from "../Main";
 import Nav from "../Nav";
 
@@ -8,12 +9,11 @@ import Nav from "../Nav";
 class Template extends Component {
   render(){
     const { location } = this.props;
-    console.log(this.props);
     return (
       <div>
         <Header/>
         <Nav/>
-        <Main/>
+        { location === "contact" && <Contact />}
         <Footer/>
       </div>
     );
