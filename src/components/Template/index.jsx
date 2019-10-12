@@ -7,6 +7,8 @@ import Nav from "../Nav";
 //Declare a class called Template, it's a prototype of the base react component//
 class Template extends Component {
   render(){
+    const { location } = this.props;
+    console.log(this.props);
     return (
       <div>
         <Header/>
