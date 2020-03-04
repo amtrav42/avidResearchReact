@@ -1,0 +1,9 @@
+@import '../../styles/global.scss';
+.navText{
+  border: pink solid 2px;
+  flex-direction: column;
+  font-family: $font-headings;
+}
+.navLink{
+  text-decoration: none;
+}

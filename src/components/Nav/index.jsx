@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import NavLink from "../NavLink";
+import './styles.scss';
 
 const navLinkList = [
   {

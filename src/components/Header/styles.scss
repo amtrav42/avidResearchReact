@@ -6,3 +6,9 @@ $font-headings: 'Mansalva', cursive;
   width: 600px;
   text-align: center;
 }
+.container{
+  display: flex;
+  align-items: center;
+  border: 2px dotted red;
+  justify-content: space-between;
+}
